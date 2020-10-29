@@ -1,0 +1,36 @@
+@charset "utf-8";
+/*메인*/
+.mainPage{}
+.mainCon01{}
+.mainCon01 li{
+	width:600px;
+	height:600px;
+	float:left;
+}
+.mainCon01 li a{
+	height:100%;
+	display:block;
+	position:relative;
+	background:rgba(0,0,0,0.4);
+	transition:0.3s;
+}
+.mainCon01 li p{
+	position:absolute;
+	left:30px;
+	bottom:30px;
+	color:#fff;
+	font-size:22px;
+	font-weight:100;
+}
+.mainCon01 li:hover a{
+	background:rgba(0,0,0,0.1);
+}
+.con01_img01{
+	background:url(../images/main_img01.png);
+}
+.con01_img02{
+	background:url(../images/main_img02.png);
+}
+.con01_img03{
+	background:url(../images/main_img03.png);
+}
